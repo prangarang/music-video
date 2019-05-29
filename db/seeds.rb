@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Dir[Rails.root.join('lib/**/*.rb')].each { |f| require f }
+
+VideoImporter.new.import
