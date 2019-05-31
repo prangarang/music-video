@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Used to interact with a video entry from Sofar Sounds json file hosted on Amazon
+# Used to interact with individual video entry from Sofar Sounds json file hosted on Amazon
 class SofarVideoGateway
   attr_accessor :video
 

@@ -18,7 +18,8 @@ RSpec.describe Video, type: :model do
     context 'when search terms match one record' do
       it_behaves_like 'supports full text search', song_name: 'battles the pink'
       it_behaves_like 'supports full text search', city: 'london'
-      it_behaves_like 'supports full text search', artist_name: 'flaming', song_name: 'pink robots'
+      it_behaves_like 'supports full text search',
+                      artist_name: 'flaming', song_name: 'pink robots'
     end
 
     context 'when searching matches multiple videos' do

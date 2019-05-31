@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Client for connecting to Sofar Sounds AWS
 class SofarAmazonClient
   include HTTParty
